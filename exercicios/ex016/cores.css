@@ -1,0 +1,10 @@
+
+*{
+    min-height:100%;
+}
+
+
+body{
+    background-image:linear-gradient(45deg, #4968D5, #734FC1, #BC3493, #D92D75, #E13964, #F97B2C, #FECD74);
+background-attachment: fixed;
+}

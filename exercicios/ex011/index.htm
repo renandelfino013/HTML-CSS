@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas e audio</title>
+</head>
+<body>
+    <h1>Imagen dinamica</h1>
+
+        <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do navegador</p>
+
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/p-img.png" type="image/png">
+            <source media="(max-width:1050px )" srcset="imagens/m-img.png" type="image/png">
+            <img src="imagens/g-img.png" alt="imagen flexivel">
+        </picture>
+
+        <p>
+            <p><h1>Reproduzindo audio</h1></p>
+            
+            <audio preload ="metadata"src="midia/Silent Night - The Soundlings.mp3" type="audio/mpeg" controls autoplay>
+                <source src="midia/Silent Night - The Soundlings.mp3" type="audio;mpeg">
+            
+                <p> infelixmente seu navegador não consegue reproduzir o audio entao clique abaixo para baixar <a href="midia/Silent Night - The Soundlings.mp3"></a></p>
+            </audio>
+        </p>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="imagens/logo.ico.ico" type="image/x-icon">
+
+    <title>Desafio das imagens flexiveis</title>
+</head>
+<body style="background-color: slategrey; font-family: Arial, Helvetica, sans-serif;color: rgba(255, 255, 255, 0.562);">
+    <h1>Imagens Flexíveis</h1>
+
+    <p>Você esta Vendo a imagen completa??Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência 
+        &#x1F680;&#x1F525;</p>
+
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/fundo-p.jpg" type="image/jpg">
+            <source media="(max-width:1050px)" srcset="imagens/fundo-700-m.jpg" type="image/jpg">    
+            <img src="imagens/fundo-1000.jpg" alt="paisagen linda com uma arvore no meio" srcset="">
+        </picture>
+</body>
+</html>

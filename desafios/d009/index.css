@@ -1,0 +1,16 @@
+body{background-color: black;
+    color: white; list-style: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+   text-align: center;
+
+display: flexbox;
+}
+
+.videos{padding: auto;
+}
+img{ 
+    height: 150px;
+}
+  

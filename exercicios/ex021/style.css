@@ -1,0 +1,83 @@
+body{
+   
+    margin: 0px;
+    background-color: rgba(202, 202, 202, 0.432);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
+    
+    
+
+}
+
+main{background-color: white;
+text-align: justify;
+width: 600px;
+margin: auto;
+padding: 1px 15px 15px 15px;
+border-radius: 25px;
+box-shadow:      5px 5px 3px   rgba(0, 0, 0, 0.144);}
+
+header{background-color: #C4170C;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+margin: 0px auto 10px auto;
+padding: 1px auto 5px 5px; 
+
+
+}
+
+
+header > h1{
+ padding: auto 0px
+ 0px 5px ;   
+font-size: 2.5em;
+font-weight: bold;
+}
+picture > img{
+    width:350px ;
+    height: 250px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 0px 10px;
+    ;
+    
+}
+nav{ background-color: #881109b0;}
+
+section>p{
+    padding: 5px 0px 0px 5px;
+    text-decoration: underline;
+    font-size: 1.2em;
+    background-color: rgba(145, 7, 7, 0.37);
+    color: rgb(71, 69, 69);
+}
+.brmd{
+    font-size: 1.2em;
+    background-color: rgba(145, 7, 7, 0.37);
+    color: rgb(71, 69, 6 );
+    
+}
+footer{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    margin: auto;    height: 80px;
+    align-content: center;
+}
+footer>p{
+    margin: auto;
+    
+}
+main > picture > img{
+    align-items: center;
+    text-align: center;
+}
+.escritor{
+    color: rgb(1, 43, 97);
+    background-color: rgba(80, 80, 80, 0.473);
+}
