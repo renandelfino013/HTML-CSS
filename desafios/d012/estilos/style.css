@@ -11,83 +11,63 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+  
     
 }
 
-body{
-    background-color: rgb(255, 255, 255);
-    
-    
+body , html{
+    min-height: 100vh;
 }
 
-header{
-    color: white;
+header {
     background-color: black;
     text-align: center;
-  box-sizing: 100%;}
-
-header h1{  
-    font-weight: bold;
-    font-size: 4em;
-    font-family: var(--fonte-titulo);
+    color: white;
+    padding-top:50px ;
+  
 }
 
-header > p 
-{
- font-family: Arial, Helvetica, sans-serif;    
+header > h1{
+    font-family: var(--fonte-titulo);
+    font-variant: small-caps;
+    font-size: 10vw;
 }
 header > p > a{
     text-decoration: none;
     color: white;
-    font-family: var(--fonte-titulo);
+    font-weight: bolder;
+    
+    
 }
-  header > p > a:hover{
-    text-decoration: underline;
-    color: rgb(255, 255, 255);}
-    article> p{
-        font-family: var(--fonte-padrão);
-        font-size: 4vw;
-    }
-    article{
-        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.26);
-        padding-bottom:50px ;
+header >p{
+    padding-bottom: 50px;
+}
        
-    }
-    #imagen1{
-        background-image: url(../pacote-d012/imagens/background001.jpg);
-        background-size:100% 100%;
-        background-repeat: no-repeat;
-        padding: 30px;
-        background-attachment: fixed;
-        background-position: right center;
-        position: relative;
-        
-    }
-    
-    article#imagen1{
-        min-height: 800px;
+header a:hover {
+text-decoration: underline;
+
+}
+
+.imagen{
+    background-color: rgb(110, 110, 110);
+    color: white;
+
+}
+.imagen > p{
+    background-color: rgba(0, 0, 0, 0.356);
+    display: inline-block;
+    padding: 10px;
+
+}
+   
 
 
-    }
-    article#imagen1 > p{
-        background-color: rgba(0, 0, 0, 0.13);
-        color: white;
-        display: inline-block;
-        box-sizing: border-box;
-        position: absolute;
-    
-        padding: 5px;
-        left:50% ;
-    top: 50%;
-    transform: translate(-50% ,-50%);
-    
-    min-height: 500px ;
-       
-        
-       
-        
-        
-    }
-    
+article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3em;
+    padding-left: 30px;
+    font-family: var(--fonte-padrão);
+    font-size: 3.5vw
+}
     
