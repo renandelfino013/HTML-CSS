@@ -41,6 +41,7 @@ header > p > a{
 }
 header >p{
     padding-bottom: 50px;
+    font-family: var(--fonte-titulo);
 }
        
 header a:hover {
@@ -51,6 +52,7 @@ text-decoration: underline;
 .imagen{
     background-color: rgb(110, 110, 110);
     color: white;
+   
 
 }
 .imagen > p{
@@ -59,6 +61,18 @@ text-decoration: underline;
     padding: 10px;
 
 }
+   #i1{
+    background-image: url(../pacote-d012/imagens/background001.jpg);    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   #i2{
+    background-image: url(../pacote-d012/imagens/background002.jpg);    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
    
 
 
@@ -70,4 +84,26 @@ article{
     font-family: var(--fonte-padrão);
     font-size: 3.5vw
 }
-    
+    footer{
+        background-color: black;
+        font-family: var(--fonte-titulo);
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-variant: small-caps;
+        font-size: 2vw;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    footer > p{
+        font-weight: lighter;
+    }
+    footer > a::after{
+        content: '\1f517';
+    } 
