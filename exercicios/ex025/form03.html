@@ -23,7 +23,8 @@
           min="0"
           max="10"
           value="5"
-        />
+        / oninput="inive.innerHTML = Number(inivel.value)">
+        <output   id="inive">5</output>
 
         <p>
           <label for="iest">Estado:</label>
@@ -55,6 +56,33 @@
         <label for="itexta"> Mensagem:</label>
         <textarea name="areatxt" id="itexta" cols="30" rows="10" placeholder="mensagem aqui...." ></textarea>
       </fieldset>
+
+      <p>
+        <label for="in1">Numero 1:</label>
+        <input type="number" name="numero" id="in1" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+      </p>
+      <p>
+        <label for="in2">Numero 2:</label>
+        <input type="number" name="numero" id="in2">
+      </p>
+      <p>
+        <label for="isoma">soma:</label>
+        <output name="soma" id="isoma">0</output>
+      </p>
+
+      <p><label for="iano">Em q ano vc nasceu</label></p>
+      <p><input type="number" name="ano" id="iano" max="2025" min="1950" oninput="calcIdade()"></p>
+
+      <label for="iidade">sua idade é</label>
+      
+      <output id="iidade">0</output>
+
     </form>
+    <script>
+      function calcIdade() {
+        let atual = new Date().getFullYear()
+        iidade.innerHTML = Number(atual) - Number(iano.value)
+      }
+    </script>
   </body>
 </html>
