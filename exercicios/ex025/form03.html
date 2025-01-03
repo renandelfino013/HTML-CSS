@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Dados</legend>
+
+        <input type="button" value="Clique aqui" />
+
+        <input type="submit" value="enviar" id="ienviar" name="enviar" />
+        <input type="color" name="cor" id="icor" value="FF00FF" />
+        <label for="inivel">Nível de satisfação</label>
+
+        <input
+          type="range"
+          name="nivel"
+          id="inivel"
+          min="0"
+          max="10"
+          value="5"
+        />
+
+        <p>
+          <label for="iest">Estado:</label>
+          <select name="estado" id="iest" > 
+            <option value="" selected>------escolha------</option>
+            <optgroup label="sudeste">
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="SP">Sao Pàulo</option>
+              <option value="MG">Minas Gerais</option>
+            </optgroup >
+            
+            <optgroup label="sul">
+              <option value="SC">Santa Catarina</option>
+              <option value="PR">Parana</option>
+              <option value="RS">Rio grande do Sul</option>
+            </optgroup>
+          </select>
+          <label for="itext"> Profissão</label>
+          <input type="text" name="text" id="itext"  list="profl">
+          <datalist id="profl">
+            <option value="adm">Administrador</option>
+            <option value="dev">Desenvolvedor</option>
+            <option value="enfe">Enfermeiro</option>
+            <option value="med">Medico</option>
+
+
+          </datalist>
+        </p>
+        <label for="itexta"> Mensagem:</label>
+        <textarea name="areatxt" id="itexta" cols="30" rows="10" placeholder="mensagem aqui...." ></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>
