@@ -1,2 +1,6 @@
 @charset "utf-8";
 /*estilo para inpressoras*/
+
+menu{
+    display: none;
+}

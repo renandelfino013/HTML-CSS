@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(199, 47, 47);
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url( ../imagens/cev-portrait.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+}

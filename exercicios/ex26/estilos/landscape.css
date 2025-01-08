@@ -1,0 +1,8 @@
+body{
+    background-color: antiquewhite;
+    color: gray;
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-repeat: repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
