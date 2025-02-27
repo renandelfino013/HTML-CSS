@@ -1,5 +1,6 @@
 function shout(value){
     let resultado = console.log(value + value)
-   return console.log(resultado)
+    console.log(resultado)
+    return;
    }
    shout('Fire')
