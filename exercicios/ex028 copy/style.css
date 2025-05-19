@@ -9,15 +9,15 @@ body,html{
 #conteiner{
     display: flex;
     background-color: rgb(230, 91, 91);
-    align-items: center;
-    flex-flow: column wrap;
-    height: 150px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: flex-end;
 }
 .child{
     background-color: #08cc9b;
     border: 1px solid #000000;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-    flex:auto;
     text-align: center;
 }
