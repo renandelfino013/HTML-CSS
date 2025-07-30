@@ -22,9 +22,10 @@ body,html{
     text-align: center;
     align-content: center;
     align-self: flex-end;
-
+    flex-basis: 50px;
 
 }
+
 #a{
     align-self: flex-end;
 }
@@ -38,5 +39,5 @@ body,html{
     align-self: stretch;
 }
 #e{
-    align-self: flex-end;
+    align-self: center;
 }
